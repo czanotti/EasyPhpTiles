@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiles-definitions>
+
+	<!-- COMMON STRUCTURE BASED ON layout/newLayout.html-->
+ 	<definition name="Tiles.BaseDefinition" layout="layout/newLayout.html">
+  		<put name="header" value="html_pages/header.html"/>
+   		<put name="footer" value="html_pages/footer.html"/>
+	</definition>
+	
+	<!-- *******************************************************************************--> 
+	
+ 	<!-- home COMMON TILE IS INHERITED and remaining newLayout.html keys have now defined-->
+ 	<definition name="Tiles.home" extends="Tiles.BaseDefinition">
+  		<put name="page_title" 			value="Easy Php Tiles, Home"/>
+  		<put name="body" 				value="html_pages/home.html"/>
+ 	</definition>
+ 	
+ 	<!-- page 1 -->
+ 	<definition name="Tiles.page1" extends="Tiles.BaseDefinition">
+  		<put name="page_title" 			value="Easy Php Tiles, Page 1"/>
+  		<put name="body" 				value="html_pages/page1.html"/>
+ 	</definition>
+ 	
+ 	<!-- page 2 -->
+ 	<definition name="Tiles.page2" extends="Tiles.BaseDefinition">
+  		<put name="page_title" 			value="Easy Php Tiles, Page 2"/>
+  		<put name="body" 				value="html_pages/page2.html"/>
+ 	</definition>
+ 	
+</tiles-definitions>

@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+#content{
+	width:700px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+#header h1{
+	text-align:center
+}
+
+#header p{
+	font-style:italic
+}
+
+#menu{
+	text-align:center
+}
+
+#menu span{
+	margin-left:5px;
+	margin-right:5px
+}
+
+#menu a:link {
+	color: #003333;
+	text-decoration: none;
+}
+
+#menu a:visited {
+	color: #003333;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #00AA00;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#body{
+	font-size:11px;
+	text-align:justify
+}
+
+#body img{
+	width:300px;
+	height:200px;
+	float:left
+}
